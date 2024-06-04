@@ -1,0 +1,13 @@
+#Tue May 28 15:35:20 GMT+01:00 2024
+base.0=C\:\\Users\\nsc\\AndroidStudioProjects\\CandyCrush\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\nsc\\AndroidStudioProjects\\CandyCrush\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\nsc\\AndroidStudioProjects\\CandyCrush\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\2\\classes.dex
+base.3=C\:\\Users\\nsc\\AndroidStudioProjects\\CandyCrush\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\3\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=2/classes.dex
+path.3=3/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

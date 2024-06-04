@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.candycrush"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.0] C:\Users\nsc\.gradle\caches\transforms-3\c1c1b4f844f2da99d4b95162d7d36c40\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.candycrush.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] C:\Users\nsc\.gradle\caches\transforms-3\c1c1b4f844f2da99d4b95162d7d36c40\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] C:\Users\nsc\.gradle\caches\transforms-3\c1c1b4f844f2da99d4b95162d7d36c40\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.candycrush.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.0] C:\Users\nsc\.gradle\caches\transforms-3\c1c1b4f844f2da99d4b95162d7d36c40\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] C:\Users\nsc\.gradle\caches\transforms-3\c1c1b4f844f2da99d4b95162d7d36c40\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:5:5-41:19
+18        android:allowBackup="true"
+18-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.0] C:\Users\nsc\.gradle\caches\transforms-3\c1c1b4f844f2da99d4b95162d7d36c40\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@drawable/candycrush"
+24-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:9:9-44
+25        android:label="@string/app_name"
+25-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.CandyCrush" >
+28-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:12:9-48
+29        <service
+29-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:15:9-17:40
+30            android:name="com.example.candycrush.MediaPlayerService"
+30-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:16:13-47
+31            android:exported="false" />
+31-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:17:13-37
+32
+33        <activity
+33-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:19:9-22:40
+34            android:name="com.example.candycrush.Menu"
+34-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:20:13-33
+35            android:exported="false"
+35-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:22:13-37
+36            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+36-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:21:13-69
+37        <activity
+37-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:23:9-26:40
+38            android:name="com.example.candycrush.ScoreActivity"
+38-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:24:13-42
+39            android:exported="false"
+39-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:26:13-37
+40            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+40-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:25:13-69
+41        <activity
+41-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:27:9-36:20
+42            android:name="com.example.candycrush.First"
+42-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:28:13-34
+43            android:exported="true"
+43-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:30:13-36
+44            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+44-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:29:13-69
+45            <intent-filter>
+45-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:31:13-35:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:32:17-69
+46-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:32:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:34:17-77
+48-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:34:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:37:9-40:40
+52            android:name="com.example.candycrush.MainActivity"
+52-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:38:13-41
+53            android:exported="false"
+53-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:40:13-37
+54            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+54-->C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\src\main\AndroidManifest.xml:39:13-69
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.candycrush.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nsc\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nsc\.gradle\caches\transforms-3\46a1331dd75cc60284dddddb1d8da918\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nsc\.gradle\caches\transforms-3\46a1331dd75cc60284dddddb1d8da918\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nsc\.gradle\caches\transforms-3\46a1331dd75cc60284dddddb1d8da918\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nsc\.gradle\caches\transforms-3\0e99719c1721f1142b26db9093362a76\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

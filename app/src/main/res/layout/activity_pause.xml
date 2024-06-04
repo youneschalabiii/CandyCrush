@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#7C9C27B0"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="@string/continuer"
+                android:backgroundTint="#FF00E6"
+                android:textColor="@color/white"
+                android:id="@+id/continuer"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="@string/recommencer"
+                android:backgroundTint="#FF00E6"
+                android:textColor="@color/white"
+                android:id="@+id/recommencer"/>
+
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="@string/quitter"
+                android:backgroundTint="#FF00E6"
+                android:textColor="@color/white"
+                android:id="@+id/quitter"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CandyCrush</string>
+    <string name="nom_du_joueur">Nom du joueur</string>
+    <string name="theme">Theme</string>
+    <string name="temps">Temps</string>
+    <string name="commencer_le_jeu">Commencer Le jeu</string>
+    <string name="afficher_le_score">Afficher le score</string>
+    <string name="candy_crush">Candy Crush</string>
+    <string name="numero_de_bloques">Numero de bloques</string>
+    <string name="afficher_les_scores">Afficher les scores</string>
+    <string name="quitter">Quitter</string>
+    <string name="recommencer">Recommencer</string>
+    <string name="continuer">Continuer</string>
+    <string name="nom">Nom:</string>
+    <string name="themehh">Theme:</string>
+    <string name="tempshh">Temps:</string>
+    <string name="scorehh">Score:</string>
+</resources>

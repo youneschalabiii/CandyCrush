@@ -1,0 +1,6 @@
+com.example.candycrush.test.app-core-1.5.0-0 C:\Users\nsc\.gradle\caches\transforms-3\c8607414e9ae04aaf80b1bde0a39360d\transformed\core-1.5.0\res
+com.example.candycrush.test.app-annotation-experimental-1.4.0-1 C:\Users\nsc\.gradle\caches\transforms-3\dff582b37db6d400c31ea4e3033b5841\transformed\annotation-experimental-1.4.0\res
+com.example.candycrush.test.app-androidTest-2 C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\build\generated\res\resValues\androidTest\debug
+com.example.candycrush.test.app-mergeDebugAndroidTestResources-3 C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.candycrush.test.app-mergeDebugAndroidTestResources-4 C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.candycrush.test.app-merged_res-5 C:\Users\nsc\AndroidStudioProjects\CandyCrush\app\build\intermediates\merged_res\debugAndroidTest
